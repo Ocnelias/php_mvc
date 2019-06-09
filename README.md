@@ -1,1 +1,1 @@
-PHP framework based on MVC pattern
+Own PHP framework based on MVC pattern

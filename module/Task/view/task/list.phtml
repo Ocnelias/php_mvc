@@ -8,8 +8,8 @@
               <th scope="col">User Name</th>
               <th scope="col">Email</th>
               <th scope="col">Comments</th>
-
-
+              <th scope="col">Status</th>
+              <th scope="col"></th>
 <?php if (isset($this->isAdmin) && $this->isAdmin) { ?>
               <th scope="col">Action</th>
 <?php } else { ?>
@@ -24,6 +24,8 @@
               <td><?php echo $task->username ?? ''; ?></td>
               <td><?php echo $task->email ?? ''; ?></td>
               <td><?php echo $task->comments ?? ''; ?></td>
+              <td>created</td>
+              <td></td>
 
 <?php if (isset($this->isAdmin) && $this->isAdmin) { ?>
               <td><a href="<?php echo $this->basePath; ?>task/edit/<?php echo $task->id; ?>">Edit</a></td>
