@@ -22,7 +22,10 @@
 
             <hr class="mb-4">
 
-
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="status" name="status" <?php echo !$task->status ?: 'checked'; ?>>
+                  <label class="custom-control-label" for="status">Task completed</label>
+              </div>
 
             <hr class="mb-4">
 

@@ -52,7 +52,8 @@ CREATE TABLE `task` (
   `id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL DEFAULT '',
   `email` varchar(255) NOT NULL DEFAULT '',
-  `comments` text
+  `comments` text,
+  `status` boolean NOT NULL DEFAULT false
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
