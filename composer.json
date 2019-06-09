@@ -1,0 +1,22 @@
+{
+  "name": "beejee/test",
+  "description": "Task list application",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Dmytry Salenko",
+      "email": "dosalenko@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Core\\" : "core/",
+      "Application\\" : "module/Application/",
+      "Task\\" : "module/Task/",
+      "Admin\\" : "module/Admin/"
+    }
+  }
+}
