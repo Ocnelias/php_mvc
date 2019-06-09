@@ -35,7 +35,7 @@ CREATE TABLE `admin` (
 
 --
 -- Дамп данных таблицы `admin`
---- hashed password '123'  SHA2('123', 256)
+-- hashed password with sha2
 --
 
 
